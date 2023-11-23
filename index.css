@@ -1,0 +1,228 @@
+.container {
+}
+
+.intro-info {
+  margin-top: 10em;
+  margin-bottom: 2em;
+  margin-inline: 2em;
+  padding-inline-end: 15em;
+}
+h1 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+p {
+ 
+  margin-bottom: 2em;
+}
+.intro-info a {
+  background: var(--accent);
+  color: var(--text-color);
+  text-decoration: none;
+  padding-inline: 2em;
+  padding-block: 1em;
+  border-radius: 0.3em;
+}
+.intro-info p{
+  opacity: 0.5;
+}
+.hero-img {
+  background-image: url(images/home-hero.png);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 2em;
+}
+
+.profile-img {
+  background: var(--accent);
+  transform: skew(5deg);
+  padding-inline: 1em;
+  margin-inline: 8em;
+  
+}
+
+.bg-1 {
+  background-image: url(images/profile-img-1-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 30vh;
+}
+.about-info {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgb(242, 151, 145, 0.1)
+  );
+  padding-inline-start: 2em;
+  padding-inline-end: 4em;
+  padding-bottom: 2em;
+}
+.about-info p{
+  opacity: 0.5;
+}
+.about-info h2 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+  margin-top: 1em;
+}
+
+.about-info a {
+  background: var(--accent);
+  color: var(--text-color);
+  text-decoration: none;
+  padding-inline: 2em;
+  padding-block: 1em;
+  border-radius: 0.3em;
+}
+.events-container {
+  background: linear-gradient(
+    to bottom,
+    rgb(242, 151, 145, 0.1),
+    rgba(0, 0, 0, 0.1)
+  );
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 4em;
+  margin-bottom: 5em;
+}
+.events-info h2 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+  padding-top: 2em;
+}
+.events-info p{
+  opacity: 0.5;
+}
+.events h3 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+}
+.events p {
+  opacity: 0.5;
+}
+.events img {
+  margin-block: 6em;
+}
+.events-container a {
+  background: var(--accent);
+  color: var(--text-color);
+  text-decoration: none;
+  padding-inline: 2em;
+  padding-block: 1em;
+  border-radius: 0.3em;
+}
+.services-container {
+  padding-inline: 2.5em;
+  margin-bottom: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.services-info {
+  text-align: center;
+}
+.services-info h2 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+  padding-top: 2em;
+}
+.services-info p {
+  opacity: 0.5;
+}
+.packages-flex {
+  width: 80%;
+}
+.packages {
+  background-color: #0f0f0f;
+  margin-bottom: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 2em;
+
+}
+.packages a {
+  background: var(--accent);
+  color: var(--text-color);
+  text-decoration: none;
+  padding-inline: 4em;
+  padding-block: 1em;
+  border-radius: 0.3em;
+  font-size: .8rem;
+}
+.package-2 {
+  background: var(--accent);
+  margin-bottom: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 2em;
+}
+.package-2 a {
+  background: var(--accent);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  font-size: .8rem;
+}
+.white {
+  background-color: white;
+  padding-inline: 4em;
+  padding-block: 1em;
+  border-radius: 0.3em;
+}
+.packages h3{
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+  padding-top: 1em;
+}
+.package-2 h3{
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+  padding-top: 1em;
+}
+.packages-flex span{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.included{
+  margin-top: 2em;
+  font-size: .8rem;
+}
+.included-flex{
+  display: flex;
+ 
+}
+.included-flex p{
+  font-size: .8rem;
+}
+.icon{
+  margin-right: 1.5em;
+}
