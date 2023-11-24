@@ -1,30 +1,42 @@
-.container {
+.home {
+  background: linear-gradient(to right, #f71735, #db3445);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .intro-info {
-  margin-top: 10em;
-  margin-bottom: 2em;
-  margin-inline: 2em;
-  padding-inline-end: 15em;
+  padding-bottom: 4em;
+  padding-top: 20em;
+  padding-inline: 4em;
+  background-color: var(--alt-black);
+}
+.intro-info span {
+  background: linear-gradient(to right, #f3435a, #f73b4e);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h1 {
   font-family: var(--title-font);
   font-weight: 400;
   margin-bottom: 0.5em;
+  font-size: 1.55rem;
 }
 p {
- 
+  font-size: 1rem;
   margin-bottom: 2em;
 }
 .intro-info a {
   background: var(--accent);
   color: var(--text-color);
   text-decoration: none;
-  padding-inline: 2em;
+  padding-inline: 3em;
   padding-block: 1em;
   border-radius: 0.3em;
+  font-size: 0.9rem;
 }
-.intro-info p{
+.intro-info p {
   opacity: 0.5;
 }
 .hero-img {
@@ -33,25 +45,23 @@ p {
   background-position: right center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40vh;
-  margin-bottom: 2em;
+  min-height: 40vh;
 }
-
+.about-container {
+  margin-top: 4em;
+}
 .profile-img {
   background: var(--accent);
-  transform: skew(5deg);
-  padding-inline: 1em;
-  margin-inline: 8em;
-  
+  margin-inline: 0em;
 }
 
 .bg-1 {
   background-image: url(images/profile-img-1-2.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
-  height: 30vh;
+  height: 50vh;
 }
 .about-info {
   background: linear-gradient(
@@ -63,14 +73,14 @@ p {
   padding-inline-end: 4em;
   padding-bottom: 2em;
 }
-.about-info p{
+.about-info p {
   opacity: 0.5;
 }
 .about-info h2 {
   font-family: var(--title-font);
   font-weight: 400;
   margin-bottom: 0.5em;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 1em;
 }
 
@@ -78,9 +88,10 @@ p {
   background: var(--accent);
   color: var(--text-color);
   text-decoration: none;
-  padding-inline: 2em;
+  padding-inline: 3em;
   padding-block: 1em;
   border-radius: 0.3em;
+  font-size: 0.9rem;
 }
 .events-container {
   background: linear-gradient(
@@ -100,17 +111,17 @@ p {
   font-family: var(--title-font);
   font-weight: 400;
   margin-bottom: 0.5em;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding-top: 2em;
 }
-.events-info p{
+.events-info p {
   opacity: 0.5;
 }
 .events h3 {
   font-family: var(--title-font);
   font-weight: 400;
   margin-bottom: 0.5em;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 .events p {
   opacity: 0.5;
@@ -122,9 +133,10 @@ p {
   background: var(--accent);
   color: var(--text-color);
   text-decoration: none;
-  padding-inline: 2em;
+  padding-inline: 3em;
   padding-block: 1em;
   border-radius: 0.3em;
+  font-size: 0.9rem;
 }
 .services-container {
   padding-inline: 2.5em;
@@ -159,7 +171,6 @@ p {
   align-items: center;
   flex-direction: column;
   padding-block: 2em;
-
 }
 .packages a {
   background: var(--accent);
@@ -168,7 +179,7 @@ p {
   padding-inline: 4em;
   padding-block: 1em;
   border-radius: 0.3em;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .package-2 {
   background: var(--accent);
@@ -186,7 +197,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .white {
   background-color: white;
@@ -194,35 +205,132 @@ p {
   padding-block: 1em;
   border-radius: 0.3em;
 }
-.packages h3{
+.packages h3 {
   font-family: var(--title-font);
   font-weight: 400;
   margin-bottom: 0.5em;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-top: 1em;
 }
-.package-2 h3{
+.package-2 h3 {
   font-family: var(--title-font);
   font-weight: 400;
   margin-bottom: 0.5em;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-top: 1em;
 }
-.packages-flex span{
+.packages-flex span {
   font-weight: 700;
   font-size: 1.5rem;
 }
-.included{
+.included {
   margin-top: 2em;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-.included-flex{
+.included-flex {
   display: flex;
- 
 }
-.included-flex p{
-  font-size: .8rem;
+.included-flex p {
+  font-size: 0.8rem;
 }
-.icon{
+.icon {
   margin-right: 1.5em;
+}
+@media (min-width: 600px) {
+  .intro-info p {
+    max-width: 27em;
+  }
+  .hero-img {
+    background-color: var(--alt-black);
+    height: 55vh;
+  }
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .profile-img {
+    min-width: 60em;
+    margin-right: 4em;
+  }
+}
+@media (min-width: 980px) {
+  .hero-container {
+    display: flex;
+  }
+  .intro-info p {
+    max-width: 30em;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  .hero-img {
+    min-height: 50vh;
+  }
+  .about-container {
+    flex-direction: row;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgb(242, 151, 145, 0.1)
+    );
+  }
+  .about-info {
+    background: transparent;
+  }
+  .about-info p {
+    max-width: 25em;
+  }
+  .about-info h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .events-info h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .events-info p {
+    max-width: 30em;
+  }
+  .events {
+    padding-inline: 40em;
+  }
+
+  .weddings,
+  .parties,
+  .office {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+  }
+  .weddings,
+  .office {
+    flex-direction: row-reverse;
+  }
+  .events img {
+    margin-block: 0;
+  }
+  .events p {
+    max-width: 21em;
+    min-width: 21em;
+  }
+  .events h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .events-container {
+    justify-content: space-between;
+  }
+  .services-info h2{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .services-info p{
+    max-width: 30em;
+  }
+  .packages-flex{
+    display: flex;
+  }
 }
