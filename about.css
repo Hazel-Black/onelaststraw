@@ -70,7 +70,7 @@ form h3 {
   font-size: 1.3rem;
   margin-top: 1em;
 }
- form label {
+form label {
   font-size: 0.8rem;
 }
 input {
@@ -82,10 +82,10 @@ input {
   border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
   color: white;
   margin-bottom: 1em;
-  padding-inline-start: .5em;
+  padding-inline-start: 0.5em;
 }
-input:focus{
- outline: none; 
+input:focus {
+  outline: none;
 }
 textarea {
   background-color: transparent;
@@ -93,10 +93,10 @@ textarea {
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
   color: white;
-  padding-inline-start: .5em;
+  padding-inline-start: 0.5em;
 }
-textarea:focus{
-  outline:none;
+textarea:focus {
+  outline: none;
 }
 form button {
   background: var(--accent);
@@ -110,53 +110,48 @@ form button {
   margin-top: 1.5em;
 }
 @media (min-width: 500px) {
-input{
-  width: 25em;
+  input {
+    width: 25em;
+  }
+  textarea {
+    width: 25em;
+  }
 }
-textarea{
-  width: 25em;
-}
-}
-@media (min-width: 700px){
-  .form{
+@media (min-width: 700px) {
+  .form {
     padding-inline: 15em;
   }
-
 }
-@media (min-width: 800px){
-
-  .about-flex{
+@media (min-width: 800px) {
+  .about-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-bottom: 10em;
+    margin-bottom: 10em;
   }
-  .about-flex p{
+  .about-flex p {
     margin-bottom: 0em;
     max-width: 40em;
   }
-  .img-1{
+  .img-1 {
     margin-right: 5em;
   }
-  .img-2{
+  .img-2 {
     margin-left: 5em;
   }
-  .flex-2{
+  .flex-2 {
     flex-direction: row-reverse;
   }
-  .form{
+  .form {
     padding-inline: 20em;
   }
 }
-@media (min-width: 1100px){
-  .about-container{
+@media (min-width: 1100px) {
+  .about-container {
     padding-inline: 20em;
-
   }
-  
-  
-  .form{
+
+  .form {
     padding-inline: 45em;
   }
-
 }
