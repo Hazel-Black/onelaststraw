@@ -87,7 +87,7 @@ nav {
   text-align: center;
   top: 100%;
   right: 0;
-
+  background-color: var(--alt-black);
   width: 40%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -139,7 +139,7 @@ footer {
 
 footer::before {
   content: "";
-  background: url(images/footerbg.png);
+  background: url(images/footer-bg-2.png);
   background-size: cover, 100%;
   padding-block: 8em;
   position: absolute;

@@ -65,7 +65,7 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 8em;
+  margin-bottom: 15em;
   border: 1px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
@@ -120,11 +120,13 @@ form button {
   border: none;
   margin-top: 1.5em;
 }
+
 @media (min-width:1000px) {
  .contact-flex{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5em;
  } 
  .form p{
   max-width: 19em;
