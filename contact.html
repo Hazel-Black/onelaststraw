@@ -48,7 +48,68 @@
         >Book Consultation</a
       >
     </header>
-    <main></main>
+    <main>
+      <div class="conatiner">
+        <div class="banner">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="contact-flex">
+          <div class="contact-info">
+            <h2>Contact</h2>
+            <p>here is a small message about contacting us</p>
+            <div class="contact-info-flex">
+              <div class="circle"><img src="images/location.png" alt="" /></div>
+              <div><p>P.O Box 1183, Marshall, TX 75670</p></div>
+            </div>
+            <div class="contact-info-flex">
+              <div class="circle"><img src="images/phone.png" alt="" /></div>
+              <div><p>(903)-218-7724</p></div>
+            </div>
+            <div class="contact-info-flex">
+              <div class="circle"><img src="images/mail.png" alt="" /></div>
+              <div><p>jacobkonelaststraw.com</p></div>
+            </div>
+          </div>
+          <div class="form">
+            <form
+              action="https://formsubmit.co/jacobk@onelaststraw.com"
+              method="POST"
+            >
+              <input type="hidden" name="_template" value="box" />
+              <input
+                type="hidden"
+                name="_subject"
+                value="OLS Form Submission"
+              />
+
+              <div>
+                <p>here is a small paragrah for the customer to read</p>
+              </div>
+              <div>
+                <label for="name">Name:</label> <br />
+                <input type="text" name="name" required /><br />
+              </div>
+              <div>
+                <label for="email">Email:</label> <br />
+                <input type="email" name="email" required /><br />
+              </div>
+              <div>
+                <label for="message">Message:</label> <br />
+                <textarea
+                  name="message"
+                  id=""
+                  cols="24"
+                  rows="4"
+                  required
+                ></textarea
+                ><br />
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
       <div>
         <a class="home" href="index.html">Home</a>

@@ -4,3 +4,130 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 15em;
+  padding-bottom: 10em;
+}
+.banner::before {
+  content: "";
+  background: url(images/banner.png) no-repeat;
+  background-size: cover, 100%;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+h1 {
+  font-size: 2.2rem;
+}
+.contact-info{
+  padding-inline: 4em;
+}
+h2{
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1.8rem;
+  margin-top: 1em;
+}
+.contact-info p{
+  font-size: 1.2rem;
+}
+.contact-info-flex{
+  display: flex;
+ margin-block: 2em;
+  align-items: center;
+}
+.contact-info-flex p{
+  font-size: 1.1rem;
+}
+.circle{
+  margin-right: 2em;
+  background: var(--accent);
+  padding:1em;
+  border-radius: 1em;
+}
+
+.form{
+ padding-inline: 5em;
+ margin-top: 8em;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8em;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
+  padding-block: 4em;
+  border-radius: 0.6em;
+  
+}
+form p {
+  font-family: var(--title-font);
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+  margin-top: 1em;
+  padding-inline-start: 1em;
+}
+form label {
+  font-size: 0.8rem;
+}
+input {
+  width: 15.8em;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1;
+  padding-block: 0.5em;
+  border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
+  color: white;
+  margin-bottom: 1em;
+  padding-inline-start: 0.5em;
+}
+input:focus {
+  outline: none;
+}
+textarea {
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
+  color: white;
+  padding-inline-start: 0.5em;
+}
+textarea:focus {
+  outline: none;
+}
+form button {
+  background: var(--accent);
+  color: var(--text-color);
+  text-decoration: none;
+  padding-inline: 6.5em;
+  padding-block: 1em;
+  border-radius: 0.3em;
+  font-size: 0.8rem;
+  border: none;
+  margin-top: 1.5em;
+}
+@media (min-width:1000px) {
+ .contact-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } 
+ .form p{
+  max-width: 19em;
+ }
+} 
+  
