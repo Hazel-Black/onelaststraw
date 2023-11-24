@@ -28,3 +28,135 @@
 h1 {
   font-size: 2.2rem;
 }
+
+.about-img {
+  width: 100%;
+  margin-top: 5em;
+}
+.about-img img {
+  width: 100%;
+}
+.about-flex {
+  padding-inline: 2em;
+}
+.about-flex h2 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+.about-flex p {
+  font-size: 1.2rem;
+  margin-bottom: 2em;
+}
+.form {
+  padding-inline: 5em;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8em;
+  background-color: #1e1d1d;
+  padding-block: 4em;
+  border-radius: 0.6em;
+}
+form h3 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+  margin-top: 1em;
+}
+ form label {
+  font-size: 0.8rem;
+}
+input {
+  width: 15.8em;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1;
+  padding-block: 0.5em;
+  border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
+  color: white;
+  margin-bottom: 1em;
+  padding-inline-start: .5em;
+}
+input:focus{
+ outline: none; 
+}
+textarea {
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #f3435a, #f73b4e);
+  color: white;
+  padding-inline-start: .5em;
+}
+textarea:focus{
+  outline:none;
+}
+form button {
+  background: var(--accent);
+  color: var(--text-color);
+  text-decoration: none;
+  padding-inline: 6.5em;
+  padding-block: 1em;
+  border-radius: 0.3em;
+  font-size: 0.8rem;
+  border: none;
+  margin-top: 1.5em;
+}
+@media (min-width: 500px) {
+input{
+  width: 25em;
+}
+textarea{
+  width: 25em;
+}
+}
+@media (min-width: 700px){
+  .form{
+    padding-inline: 15em;
+  }
+
+}
+@media (min-width: 800px){
+
+  .about-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 10em;
+  }
+  .about-flex p{
+    margin-bottom: 0em;
+    max-width: 40em;
+  }
+  .img-1{
+    margin-right: 5em;
+  }
+  .img-2{
+    margin-left: 5em;
+  }
+  .flex-2{
+    flex-direction: row-reverse;
+  }
+  .form{
+    padding-inline: 20em;
+  }
+}
+@media (min-width: 1100px){
+  .about-container{
+    padding-inline: 20em;
+
+  }
+  
+  
+  .form{
+    padding-inline: 45em;
+  }
+
+}

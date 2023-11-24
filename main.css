@@ -36,8 +36,7 @@ header {
 }
 .inverted {
   background-color: var(--alt-black);
-  box-shadow: 0 3px 5px 0.3px rgba(0,0,0,0.1);
-  a {color: $color-blue; }
+  box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
 }
 .logo {
   width: 12em;
@@ -142,7 +141,7 @@ footer::before {
   content: "";
   background: url(images/footerbg.png);
   background-size: cover, 100%;
-  padding-block: 6em;
+  padding-block: 8em;
   position: absolute;
   right: 0px;
   bottom: 0px;
