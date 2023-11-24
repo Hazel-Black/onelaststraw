@@ -1,0 +1,30 @@
+.services {
+  background: linear-gradient(to right, #f71735, #db3445);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 15em;
+  padding-bottom: 10em;
+}
+.banner::before {
+  content: "";
+  background: url(images/banner.png) no-repeat;
+  background-size: cover, 100%;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+h1 {
+  font-size: 2.2rem;
+}
