@@ -29,7 +29,6 @@ h1 {
   font-size: 2.2rem;
 }
 .events-container {
-
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -93,6 +92,12 @@ h1 {
   opacity: 0.5;
   font-size: 1rem;
   margin-bottom: 4em;
+}
+.red {
+  background: linear-gradient(to right, #f71735, #db3445);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .packages-flex {
   width: 80%;
@@ -171,7 +176,7 @@ h1 {
 .icon {
   margin-right: 1.5em;
 }
-@media (min-width:990px) {
+@media (min-width: 990px) {
   .events-info h2 {
     font-size: 2rem;
     font-weight: 600;
