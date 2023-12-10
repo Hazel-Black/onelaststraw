@@ -57,19 +57,13 @@ h1 {
 .events p {
   opacity: 0.5;
   font-size: 1rem;
+  padding-inline: 2em;
 }
 .events img {
   margin-block: 6em;
 }
-.events-container a {
-  background: var(--accent);
-  color: var(--text-color);
-  text-decoration: none;
-  padding-inline: 3em;
-  padding-block: 1em;
-  border-radius: 0.3em;
-  font-size: 0.9rem;
-}
+
+
 .services-container {
   padding-inline: 2.5em;
   margin-bottom: 5em;
@@ -102,16 +96,22 @@ h1 {
 .packages-flex {
   width: 80%;
 }
+.packages-flex p{
+  font-size: 1rem;
+  margin-bottom: 2em;
+}
 .packages {
   background-color: #0f0f0f;
   margin-bottom: 2em;
   width: 100%;
   display: flex;
-  justify-content: center;
+  
   align-items: center;
   flex-direction: column;
   padding-block: 2em;
+
 }
+
 .packages a {
   background: var(--accent);
   color: var(--text-color);
@@ -126,7 +126,7 @@ h1 {
   margin-bottom: 2em;
   width: 100%;
   display: flex;
-  justify-content: center;
+  
   align-items: center;
   flex-direction: column;
   padding-block: 2em;
@@ -171,7 +171,7 @@ h1 {
   display: flex;
 }
 .included-flex p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .icon {
   margin-right: 1.5em;

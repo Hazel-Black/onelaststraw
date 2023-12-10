@@ -125,6 +125,7 @@ p {
 }
 .events p {
   opacity: 0.5;
+  padding-inline: 2em;
 }
 .events img {
   margin-block: 6em;
@@ -173,7 +174,7 @@ p {
   margin-bottom: 2em;
   width: 100%;
   display: flex;
-  justify-content: center;
+  
   align-items: center;
   flex-direction: column;
   padding-block: 2em;
@@ -192,7 +193,7 @@ p {
   margin-bottom: 2em;
   width: 100%;
   display: flex;
-  justify-content: center;
+  
   align-items: center;
   flex-direction: column;
   padding-block: 2em;
@@ -237,7 +238,7 @@ p {
   display: flex;
 }
 .included-flex p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .icon {
   margin-right: 1.5em;
